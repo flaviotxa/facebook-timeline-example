@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+nav {
+  background-color: #4a90e2;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  background: #4a90e2;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 42px;
+  color: #fff;
+  min-width: 980px;
+  font-size: 14px;
+}
+
+nav img {
+  height: 24px;
+}
+
+nav > span {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav > div i {
+  margin-left: 8px;
+}
+
+.post-list {
+  width: 700px;
+  margin: 0 auto 20px;
+}
+
+.post {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.post p {
+  font-size: 14px;
+  color: #3e3e3e;
+}
+
+.post-header .details {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: normal;
+  color: #9a9a9a;
+  margin-left: 20px;
+}
+
+.post-header .details span:first-child {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.post-comments {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.post-comments .comment {
+  margin-left: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  width: 100%;
+  background-color: #eeeeee;
+  font-size: 13;
+  color: #3e3e3e;
+}
+
+.post-comments .comment span:first-child {
+  font-weight: bold;
+}
+
+.avatar {
+  min-height: 32px;
+  min-width: 32px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.divider {
+  margin-top: 20px;
+  height: 1px;
+  background-color: #eeeeee;
+}
